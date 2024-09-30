@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block content %}
+<h2>Available Scholarships</h2>
+<div class="scholarship-list">
+    <ul>
+        {% for scholarship in scholarships.values %}
+        <li>
+            <strong>{{ scholarship[0] }}</strong> - 
+            <a href="{{ scholarship[1] }}" class="link" target="_blank">Apply Now</a>
+        </li>
+        {% endfor %}
+    </ul>
+</div>
+{% endblock %}

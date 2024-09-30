@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <title>Scholarships</title>
+</head>
+<body>
+    <header>
+        <h1>Scholarship List</h1>
+        <form method="POST" class="filter-form">
+            <label for="state_filter">Select State:</label>
+            <select name="state_filter" id="state_filter">
+                <option value="">All States</option>
+                <option value="Gujarat">Gujarat</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Rajasthan">Bihar</option>
+                <option value="Rajasthan">Uttar Pradesh</option>
+
+            </select>
+            <button type="submit" class="btn">Filter</button>
+        </form>
+    </header>
+    <main>
+        <table>
+            <thead>
+                <tr>
+                    <th>Certificate Title</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for scholarship in scholarships.values %}
+                <tr>
+                    <td>{{ scholarship[0] }}</td>
+                    <td><a href="{{ scholarship[1] }}" class="link" target="_blank">Apply Now</a></td>
+                </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    </main>
+    <footer>
+        <p>&copy; 2024 Scholarships Inc.</p>
+    </footer>
+</body>
+</html>
