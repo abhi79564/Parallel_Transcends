@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Quantitative Aptitude",
+      "question": "What is the square root of 144?",
+      "correct_answer": "12",
+      "incorrect_answers": [
+        "10",
+        "14",
+        "16"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Quantitative Aptitude",
+      "question": "What is the sum of angles in a triangle?",
+      "correct_answer": "180 degrees",
+      "incorrect_answers": [
+        "90 degrees",
+        "360 degrees",
+        "120 degrees"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Logical Reasoning",
+      "question": "If 'CAT' is coded as 3120, how will 'DOG' be coded?",
+      "correct_answer": "4157",
+      "incorrect_answers": [
+        "4138",
+        "5169",
+        "5148"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Verbal Reasoning",
+      "question": "Find the synonym of 'Abundant'.",
+      "correct_answer": "Plentiful",
+      "incorrect_answers": [
+        "Scarce",
+        "Insufficient",
+        "Few"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Quantitative Aptitude",
+      "question": "What is 25% of 200?",
+      "correct_answer": "50",
+      "incorrect_answers": [
+        "25",
+        "75",
+        "100"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Quantitative Aptitude",
+      "question": "If a train travels 60 km in 1.5 hours, what is its speed?",
+      "correct_answer": "40 km/h",
+      "incorrect_answers": [
+        "45 km/h",
+        "55 km/h",
+        "35 km/h"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Logical Reasoning",
+      "question": "Which number logically follows this series: 2, 4, 8, 16, ?",
+      "correct_answer": "32",
+      "incorrect_answers": [
+        "30",
+        "28",
+        "34"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Verbal Reasoning",
+      "question": "Find the antonym of 'Benevolent'.",
+      "correct_answer": "Malevolent",
+      "incorrect_answers": [
+        "Generous",
+        "Charitable",
+        "Kind"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Quantitative Aptitude",
+      "question": "Solve for x: 2x + 5 = 13.",
+      "correct_answer": "4",
+      "incorrect_answers": [
+        "3",
+        "5",
+        "6"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Logical Reasoning",
+      "question": "John is older than Sam. Sam is younger than Tim. Who is the youngest?",
+      "correct_answer": "Sam",
+      "incorrect_answers": [
+        "John",
+        "Tim",
+        "None of the above"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Quantitative Aptitude",
+      "question": "What is the value of π (pi) to two decimal places?",
+      "correct_answer": "3.14",
+      "incorrect_answers": [
+        "3.15",
+        "3.13",
+        "3.12"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Logical Reasoning",
+      "question": "In a group of 5 people, each person shakes hands with every other person exactly once. How many handshakes occur?",
+      "correct_answer": "10",
+      "incorrect_answers": [
+        "8",
+        "12",
+        "15"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Verbal Reasoning",
+      "question": "Which word does NOT belong with the others: Apple, Banana, Orange, Carrot?",
+      "correct_answer": "Carrot",
+      "incorrect_answers": [
+        "Apple",
+        "Banana",
+        "Orange"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Quantitative Aptitude",
+      "question": "What is the LCM (Lowest Common Multiple) of 15 and 20?",
+      "correct_answer": "60",
+      "incorrect_answers": [
+        "30",
+        "45",
+        "75"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Logical Reasoning",
+      "question": "If all squares are rectangles and all rectangles are quadrilaterals, which of the following is true?",
+      "correct_answer": "All squares are quadrilaterals",
+      "incorrect_answers": [
+        "All rectangles are squares",
+        "All quadrilaterals are squares",
+        "All squares are not rectangles"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Verbal Reasoning",
+      "question": "Find the odd one out: Hammer, Screwdriver, Scissors, Knife.",
+      "correct_answer": "Screwdriver",
+      "incorrect_answers": [
+        "Hammer",
+        "Scissors",
+        "Knife"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Quantitative Aptitude",
+      "question": "A sum of money doubles itself in 8 years at simple interest. What is the rate of interest per annum?",
+      "correct_answer": "12.5%",
+      "incorrect_answers": [
+        "10%",
+        "15%",
+        "11%"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Logical Reasoning",
+      "question": "If BEAR is coded as 2518, how will WOLF be coded?",
+      "correct_answer": "2315126",
+      "incorrect_answers": [
+        "2415137",
+        "2214126",
+        "2314135"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Verbal Reasoning",
+      "question": "Find the synonym of 'Obsolete'.",
+      "correct_answer": "Outdated",
+      "incorrect_answers": [
+        "Modern",
+        "Relevant",
+        "Current"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Quantitative Aptitude",
+      "question": "If x = 5, what is the value of 3x² + 2x?",
+      "correct_answer": "85",
+      "incorrect_answers": [
+        "75",
+        "95",
+        "100"
+      ]
+    }
+  ]
+}
