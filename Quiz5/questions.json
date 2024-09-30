@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mobile Development",
+      "question": "Which of the following is a popular framework for developing cross-platform mobile applications?",
+      "correct_answer": "Flutter",
+      "incorrect_answers": [
+        "React",
+        "Angular",
+        "Vue.js"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "App Development",
+      "question": "Which language is used for Android app development?",
+      "correct_answer": "Kotlin",
+      "incorrect_answers": [
+        "Swift",
+        "Objective-C",
+        "Python"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Mobile Development",
+      "question": "Which of the following is a widely used language for iOS app development?",
+      "correct_answer": "Swift",
+      "incorrect_answers": [
+        "Java",
+        "JavaScript",
+        "Kotlin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "App Development",
+      "question": "Which mobile development framework is developed by Facebook?",
+      "correct_answer": "React Native",
+      "incorrect_answers": [
+        "Flutter",
+        "Ionic",
+        "PhoneGap"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "App Development",
+      "question": "Which of the following is the default layout system in Android?",
+      "correct_answer": "ConstraintLayout",
+      "incorrect_answers": [
+        "Flexbox",
+        "GridLayout",
+        "RelativeLayout"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "App Development",
+      "question": "Which file contains the application's UI layout in Android?",
+      "correct_answer": "XML",
+      "incorrect_answers": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mobile Development",
+      "question": "What is the role of the AndroidManifest.xml file in an Android application?",
+      "correct_answer": "It declares essential app information, including permissions and activities.",
+      "incorrect_answers": [
+        "It stores app data.",
+        "It defines the app's layout.",
+        "It initializes the app's database."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "App Development",
+      "question": "Which tool is primarily used for debugging and inspecting iOS apps?",
+      "correct_answer": "Xcode",
+      "incorrect_answers": [
+        "Android Studio",
+        "Visual Studio Code",
+        "Unity"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "App Development",
+      "question": "Which of the following is a common database used in mobile app development?",
+      "correct_answer": "SQLite",
+      "incorrect_answers": [
+        "MySQL",
+        "PostgreSQL",
+        "MongoDB"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Mobile Development",
+      "question": "What does APK stand for in Android development?",
+      "correct_answer": "Android Package Kit",
+      "incorrect_answers": [
+        "Android Programming Kit",
+        "Application Package Kit",
+        "Android Program Kit"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "App Development",
+      "question": "What is the purpose of the Gradle build system in Android?",
+      "correct_answer": "To automate building, testing, and deploying Android applications",
+      "incorrect_answers": [
+        "To manage user interface components",
+        "To handle network requests",
+        "To manage device hardware"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "App Development",
+      "question": "In iOS development, which design pattern is commonly used for app architecture?",
+      "correct_answer": "Model-View-Controller (MVC)",
+      "incorrect_answers": [
+        "Observer Pattern",
+        "Decorator Pattern",
+        "Factory Pattern"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Mobile Development",
+      "question": "What is the key feature of React Native?",
+      "correct_answer": "It allows writing mobile apps using JavaScript and renders natively.",
+      "incorrect_answers": [
+        "It uses HTML and CSS to develop mobile apps.",
+        "It is only for Android development.",
+        "It supports only static web pages."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "App Development",
+      "question": "Which of the following libraries is used for state management in React Native?",
+      "correct_answer": "Redux",
+      "incorrect_answers": [
+        "RxJava",
+        "Dagger",
+        "Room"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Mobile Development",
+      "question": "Which method in Android Activity is called when the activity is first created?",
+      "correct_answer": "onCreate()",
+      "incorrect_answers": [
+        "onStart()",
+        "onResume()",
+        "onPause()"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "App Development",
+      "question": "Which of these is a dependency injection framework in Android?",
+      "correct_answer": "Dagger",
+      "incorrect_answers": [
+        "Retrofit",
+        "OkHttp",
+        "Glide"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "App Development",
+      "question": "Which UI framework is primarily used for iOS app development?",
+      "correct_answer": "UIKit",
+      "incorrect_answers": [
+        "Jetpack Compose",
+        "Flutter",
+        "Angular"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Mobile Development",
+      "question": "In Android, what does the 'ViewModel' component do?",
+      "correct_answer": "It manages UI-related data in a lifecycle-conscious way.",
+      "incorrect_answers": [
+        "It defines the structure of the UI layout.",
+        "It manages the database.",
+        "It handles HTTP requests."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "App Development",
+      "question": "In Flutter, which widget is used for displaying a list of items?",
+      "correct_answer": "ListView",
+      "incorrect_answers": [
+        "Container",
+        "Column",
+        "Stack"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "App Development",
+      "question": "Which of the following is a navigation method in iOS apps?",
+      "correct_answer": "UINavigationController",
+      "incorrect_answers": [
+        "TabBarController",
+        "RecyclerView",
+        "ActivityStack"
+      ]
+    }
+  ]
+}
