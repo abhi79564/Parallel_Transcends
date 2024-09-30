@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "question": "What does 'supervised learning' involve?",
+      "correct_answer": "Training a model on labeled data",
+      "incorrect_answers": [
+        "Training a model on unlabeled data",
+        "Training a model without data",
+        "Training a model on partially labeled data"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Artificial Intelligence",
+      "question": "Which of the following is a common language used for AI programming?",
+      "correct_answer": "Python",
+      "incorrect_answers": [
+        "HTML",
+        "SQL",
+        "PHP"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Data Science",
+      "question": "What is the main purpose of exploratory data analysis (EDA)?",
+      "correct_answer": "To understand the main characteristics of the data",
+      "incorrect_answers": [
+        "To create a machine learning model",
+        "To clean the data",
+        "To deploy the model"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Machine Learning",
+      "question": "Which algorithm is commonly used for classification problems?",
+      "correct_answer": "Logistic Regression",
+      "incorrect_answers": [
+        "Linear Regression",
+        "K-Means Clustering",
+        "Apriori Algorithm"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Artificial Intelligence",
+      "question": "Which of the following is an example of unsupervised learning?",
+      "correct_answer": "K-Means Clustering",
+      "incorrect_answers": [
+        "Decision Trees",
+        "Support Vector Machines",
+        "Linear Regression"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Data Science",
+      "question": "What is a data frame in Python?",
+      "correct_answer": "A two-dimensional, size-mutable data structure in pandas",
+      "incorrect_answers": [
+        "A file format for data storage",
+        "A tool for data visualization",
+        "A type of array in NumPy"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "question": "Which of the following is a hyperparameter in machine learning?",
+      "correct_answer": "Learning Rate",
+      "incorrect_answers": [
+        "Model Accuracy",
+        "Prediction Error",
+        "Loss Function"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Artificial Intelligence",
+      "question": "Which AI algorithm is commonly used for reinforcement learning?",
+      "correct_answer": "Q-Learning",
+      "incorrect_answers": [
+        "K-Nearest Neighbors",
+        "Linear Regression",
+        "Support Vector Machine"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Data Science",
+      "question": "What is a confusion matrix used for?",
+      "correct_answer": "Evaluating classification models",
+      "incorrect_answers": [
+        "Storing dataset records",
+        "Performing regression analysis",
+        "Reducing the dimensionality of data"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Machine Learning",
+      "question": "Which of the following is a method to prevent overfitting in models?",
+      "correct_answer": "Cross-validation",
+      "incorrect_answers": [
+        "Training on more data",
+        "Increasing the number of features",
+        "Removing validation data"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Artificial Intelligence",
+      "question": "Which of these AI systems uses layers to simulate the human brain?",
+      "correct_answer": "Neural Networks",
+      "incorrect_answers": [
+        "Decision Trees",
+        "Random Forest",
+        "Support Vector Machines"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Data Science",
+      "question": "Which Python library is commonly used for data visualization?",
+      "correct_answer": "Matplotlib",
+      "incorrect_answers": [
+        "TensorFlow",
+        "Keras",
+        "Scikit-learn"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Machine Learning",
+      "question": "What is the purpose of the 'dropout' technique in neural networks?",
+      "correct_answer": "To prevent overfitting",
+      "incorrect_answers": [
+        "To improve the accuracy of the model",
+        "To reduce the size of the dataset",
+        "To enhance data normalization"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Artificial Intelligence",
+      "question": "Which of the following is a characteristic of a generative adversarial network (GAN)?",
+      "correct_answer": "It uses two neural networks in competition to generate new data",
+      "incorrect_answers": [
+        "It is used for regression problems",
+        "It is a type of unsupervised learning algorithm",
+        "It only uses a single neural network for predictions"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Data Science",
+      "question": "What is the role of the 'p-value' in statistical hypothesis testing?",
+      "correct_answer": "It indicates the strength of evidence against the null hypothesis",
+      "incorrect_answers": [
+        "It measures the accuracy of a model",
+        "It is used to normalize data",
+        "It represents the error rate in predictions"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Machine Learning",
+      "question": "Which optimization algorithm is used to minimize the cost function in gradient descent?",
+      "correct_answer": "Stochastic Gradient Descent",
+      "incorrect_answers": [
+        "K-Means",
+        "Random Forest",
+        "AdaBoost"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Artificial Intelligence",
+      "question": "Which AI technique is commonly used in natural language processing (NLP) to capture the meaning of words?",
+      "correct_answer": "Word Embeddings",
+      "incorrect_answers": [
+        "Decision Trees",
+        "Principal Component Analysis",
+        "Support Vector Machines"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Data Science",
+      "question": "What is the key difference between L1 and L2 regularization?",
+      "correct_answer": "L1 results in sparse solutions, while L2 shrinks coefficients but doesn’t set them to zero",
+      "incorrect_answers": [
+        "L2 results in sparse solutions, while L1 shrinks coefficients",
+        "L1 is used for classification, L2 for regression",
+        "L1 is faster than L2"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Machine Learning",
+      "question": "Which metric is best suited for imbalanced classification problems?",
+      "correct_answer": "F1-Score",
+      "incorrect_answers": [
+        "Accuracy",
+        "Mean Squared Error",
+        "R-Squared"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Artificial Intelligence",
+      "question": "Which of the following describes reinforcement learning?",
+      "correct_answer": "The model learns by interacting with an environment and receiving rewards or penalties",
+      "incorrect_answers": [
+        "The model learns from labeled data",
+        "The model is trained on structured data",
+        "The model is built using decision trees"
+      ]
+    }
+  ]
+}
