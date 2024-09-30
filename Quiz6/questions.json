@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Blockchain",
+      "question": "What is the core component of blockchain technology?",
+      "correct_answer": "Decentralized ledger",
+      "incorrect_answers": [
+        "Centralized database",
+        "Cloud server",
+        "Local storage"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Cloud Computing",
+      "question": "Which of the following is a leading cloud service provider?",
+      "correct_answer": "Amazon Web Services (AWS)",
+      "incorrect_answers": [
+        "MySQL",
+        "Docker",
+        "Kubernetes"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Blockchain",
+      "question": "In blockchain, what is a block composed of?",
+      "correct_answer": "Data, hash, and previous hash",
+      "incorrect_answers": [
+        "Data only",
+        "Transactions and signatures",
+        "Smart contracts"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Cloud Computing",
+      "question": "Which of the following models is NOT a cloud service model?",
+      "correct_answer": "Hardware as a Service (HaaS)",
+      "incorrect_answers": [
+        "Infrastructure as a Service (IaaS)",
+        "Platform as a Service (PaaS)",
+        "Software as a Service (SaaS)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Blockchain",
+      "question": "What is the purpose of 'mining' in blockchain?",
+      "correct_answer": "To validate and add transactions to the blockchain",
+      "incorrect_answers": [
+        "To remove blocks",
+        "To create new private keys",
+        "To encrypt data"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Cloud Computing",
+      "question": "Which of these cloud services allows for the storage and retrieval of data?",
+      "correct_answer": "Amazon S3",
+      "incorrect_answers": [
+        "EC2",
+        "Lambda",
+        "CloudFront"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Blockchain",
+      "question": "What is a 'smart contract' in blockchain?",
+      "correct_answer": "Self-executing contracts with the terms of agreement written into code",
+      "incorrect_answers": [
+        "A legal contract",
+        "An encrypted document",
+        "A contract signed using blockchain technology"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Cloud Computing",
+      "question": "Which of the following is a feature of Platform as a Service (PaaS)?",
+      "correct_answer": "Provides tools for developing and managing applications",
+      "incorrect_answers": [
+        "Provides virtualized hardware resources",
+        "Offers networking services",
+        "Manages user authentication"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Blockchain",
+      "question": "Which consensus algorithm does Bitcoin use?",
+      "correct_answer": "Proof of Work (PoW)",
+      "incorrect_answers": [
+        "Proof of Stake (PoS)",
+        "Delegated Proof of Stake (DPoS)",
+        "Practical Byzantine Fault Tolerance (PBFT)"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Cloud Computing",
+      "question": "What does 'scalability' refer to in cloud computing?",
+      "correct_answer": "The ability to increase or decrease resources based on demand",
+      "incorrect_answers": [
+        "The ability to store large amounts of data",
+        "The ability to run multiple applications",
+        "The ability to encrypt data"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Blockchain",
+      "question": "What is a 'public key' in blockchain?",
+      "correct_answer": "A cryptographic code that allows users to receive transactions",
+      "incorrect_answers": [
+        "A private code used to sign transactions",
+        "A key to unlock blocks",
+        "A code to encrypt smart contracts"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Cloud Computing",
+      "question": "Which of the following is a serverless compute service provided by AWS?",
+      "correct_answer": "AWS Lambda",
+      "incorrect_answers": [
+        "Amazon RDS",
+        "Amazon EC2",
+        "Amazon S3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Blockchain",
+      "question": "Which of these is an advantage of blockchain in supply chain management?",
+      "correct_answer": "Transparency and traceability of transactions",
+      "incorrect_answers": [
+        "Lower energy consumption",
+        "Real-time analytics",
+        "Improved customer experience"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Cloud Computing",
+      "question": "What is 'auto-scaling' in cloud computing?",
+      "correct_answer": "Automatically adjusting resources based on current demands",
+      "incorrect_answers": [
+        "Manually increasing server resources",
+        "Scheduling virtual machines for specific times",
+        "Allocating more storage for backup"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Blockchain",
+      "question": "Which blockchain platform is known for supporting decentralized applications (dApps) and smart contracts?",
+      "correct_answer": "Ethereum",
+      "incorrect_answers": [
+        "Bitcoin",
+        "Ripple",
+        "Litecoin"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Cloud Computing",
+      "question": "Which cloud model allows a company to store some data on-premises and some in the cloud?",
+      "correct_answer": "Hybrid cloud",
+      "incorrect_answers": [
+        "Public cloud",
+        "Private cloud",
+        "Distributed cloud"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Blockchain",
+      "question": "Which of the following best describes the Byzantine Generals Problem in blockchain?",
+      "correct_answer": "It is a problem of achieving consensus in a decentralized system.",
+      "incorrect_answers": [
+        "It is a problem related to encrypting blocks.",
+        "It is a problem of adding too many transactions at once.",
+        "It is a problem of connecting multiple blockchain nodes."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Cloud Computing",
+      "question": "What is an advantage of cloud-based disaster recovery?",
+      "correct_answer": "Data can be backed up and restored faster with lower costs.",
+      "incorrect_answers": [
+        "It guarantees 100% data recovery.",
+        "It allows access to data offline.",
+        "It eliminates the need for security measures."
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Blockchain",
+      "question": "Which of the following is a disadvantage of Proof of Work (PoW)?",
+      "correct_answer": "High energy consumption",
+      "incorrect_answers": [
+        "Low network security",
+        "Limited scalability",
+        "Slow transaction validation"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Cloud Computing",
+      "question": "What is 'multitenancy' in cloud computing?",
+      "correct_answer": "Multiple customers share the same infrastructure while keeping data separate.",
+      "incorrect_answers": [
+        "Multiple servers run on a single virtual machine.",
+        "Users can access multiple cloud services at the same time.",
+        "Multiple regions are supported for backups."
+      ]
+    }
+  ]
+}
