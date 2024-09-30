@@ -1,0 +1,244 @@
+{
+  "questions": [
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Frontend",
+      "question": "Which HTML tag is used to define an internal style sheet?",
+      "correct_answer": "<style>",
+      "incorrect_answers": [
+        "<script>",
+        "<css>",
+        "<head>"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Backend",
+      "question": "Which language is commonly used for server-side programming?",
+      "correct_answer": "Node.js",
+      "incorrect_answers": [
+        "HTML",
+        "CSS",
+        "JavaScript"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Database",
+      "question": "Which database management system is NoSQL?",
+      "correct_answer": "MongoDB",
+      "incorrect_answers": [
+        "MySQL",
+        "PostgreSQL",
+        "SQLite"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Frontend",
+      "question": "Which CSS property is used to change the text color?",
+      "correct_answer": "color",
+      "incorrect_answers": [
+        "background-color",
+        "font-color",
+        "text-color"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Backend",
+      "question": "What is the purpose of Express.js in a Node.js application?",
+      "correct_answer": "To handle HTTP requests and routing",
+      "incorrect_answers": [
+        "To style the frontend",
+        "To connect to the database",
+        "To deploy the application"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "easy",
+      "category": "Database",
+      "question": "In SQL, which command is used to retrieve data from a database?",
+      "correct_answer": "SELECT",
+      "incorrect_answers": [
+        "INSERT",
+        "DELETE",
+        "UPDATE"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Frontend",
+      "question": "Which JavaScript framework is used for building user interfaces and single-page applications?",
+      "correct_answer": "React",
+      "incorrect_answers": [
+        "Django",
+        "Express",
+        "Laravel"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Backend",
+      "question": "Which method is used in HTTP to send data to a server to create or update a resource?",
+      "correct_answer": "POST",
+      "incorrect_answers": [
+        "GET",
+        "DELETE",
+        "PATCH"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Database",
+      "question": "Which of the following is a schema-less database?",
+      "correct_answer": "MongoDB",
+      "incorrect_answers": [
+        "MySQL",
+        "PostgreSQL",
+        "Oracle"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Frontend",
+      "question": "What does CSS stand for?",
+      "correct_answer": "Cascading Style Sheets",
+      "incorrect_answers": [
+        "Cascading Script Sheets",
+        "Control Style Sheets",
+        "Colorful Style Sheets"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Backend",
+      "question": "Which of the following is a valid RESTful HTTP method?",
+      "correct_answer": "PUT",
+      "incorrect_answers": [
+        "CREATE",
+        "RETRIEVE",
+        "STORE"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "medium",
+      "category": "Database",
+      "question": "Which command is used to remove a table from a database in SQL?",
+      "correct_answer": "DROP",
+      "incorrect_answers": [
+        "DELETE",
+        "REMOVE",
+        "TRUNCATE"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Frontend",
+      "question": "What is the purpose of a 'virtual DOM' in React?",
+      "correct_answer": "To improve performance by minimizing direct DOM manipulation",
+      "incorrect_answers": [
+        "To store data temporarily",
+        "To interact with the server",
+        "To update the real DOM directly"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Backend",
+      "question": "Which protocol is used by web browsers to communicate with web servers?",
+      "correct_answer": "HTTP",
+      "incorrect_answers": [
+        "FTP",
+        "SMTP",
+        "POP3"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Database",
+      "question": "In MongoDB, which function is used to insert a document into a collection?",
+      "correct_answer": "insertOne()",
+      "incorrect_answers": [
+        "save()",
+        "add()",
+        "put()"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Frontend",
+      "question": "Which CSS property is used to create space between elements?",
+      "correct_answer": "margin",
+      "incorrect_answers": [
+        "padding",
+        "border",
+        "spacing"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Backend",
+      "question": "In Node.js, which of the following is NOT a core module?",
+      "correct_answer": "mongoose",
+      "incorrect_answers": [
+        "fs",
+        "http",
+        "path"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Database",
+      "question": "Which SQL command is used to create a new table?",
+      "correct_answer": "CREATE",
+      "incorrect_answers": [
+        "INSERT",
+        "ALTER",
+        "UPDATE"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Frontend",
+      "question": "Which HTML5 element is used to embed a video?",
+      "correct_answer": "<video>",
+      "incorrect_answers": [
+        "<media>",
+        "<embed>",
+        "<movie>"
+      ]
+    },
+    {
+      "type": "multiple",
+      "difficulty": "hard",
+      "category": "Backend",
+      "question": "Which of the following is a valid HTTP status code for 'Not Found'?",
+      "correct_answer": "404",
+      "incorrect_answers": [
+        "200",
+        "403",
+        "500"
+      ]
+    }
+  ]
+}
