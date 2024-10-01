@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AspireHub</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <style>
+        .bg-primary {
+            background-color: #ff6f61; 
+        }
+        .bg-secondary {
+            background-color: #f3d2c1; 
+        }
+        .bg-accent {
+            background-color: #6759ff; 
+        }
+        .text-primary {
+            color: #3b3b3b; 
+        }
+        .text-secondary {
+            color: #555555; 
+        }
+        .button-primary {
+            background-color: #ff6f61; 
+            color: #6759ff;
+        }
+        .button-primary:hover {
+            background-color: #ff5a50; 
+        }
+        .h2 {
+          color: black;
+        }
+        
+        .fixed-top {
+            position: absolute; 
+            top: 0; 
+            left: 0;
+            right: 0;
+            z-index: 1000; 
+        }
+        
+        .navbar {
+            margin-bottom: 0; 
+        }
+        
+        header h2,
+        header p {
+            color: black; 
+        }
+        
+        .scroller-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            overflow-x: auto;
+            scroll-snap-type: x mandatory;
+            padding: 16px 0; 
+            margin: 0 auto; 
+        }
+        
+        .scroller {
+            display: flex;
+            scroll-snap-type: x mandatory;
+            align-items: center;
+        }
+        
+        .scroller-item {
+            flex: 0 0 auto;
+            scroll-snap-align: start;
+            width: 300px; 
+            margin-right: 20px; 
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            padding: 16px;
+            text-align: center;
+        }
+        
+        .scroller::-webkit-scrollbar {
+            display: none; 
+        }
+    </style>
+</head>
+<body class="bg-primary text-primary">
+    <nav class="bg-secondary p-4 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold text-primary"><a href="index.html">AspireHub</a></h1>
+            <div class="hidden md:flex space-x-4">
+                <a href="/AspireHub/index.html" class="text-primary hover:text-accent">Home</a>
+            </div>
+            <button class="button-primary px-4 py-2 rounded-md"><a href="/Signup Login Folder/public/main.html">Sign Out</a></button>
+        </div>
+    </nav>
+
+    <header class="bg-accent text-white p-8 mt-16">
+        <div class="container mx-auto">
+            <h2 class="text-3xl font-bold text-black">Educational Equity Success Stories</h2>
+            <p class="text-lg mt-2 text-black">Read about how our platform has helped underprivileged students achieve their educational goals!</p>
+        </div>
+    </header>
+   
+    <section class="container mx-auto p-6 page-center">
+        <div class="scroller-container">
+            <div class="scroller" id="scroller">
+                <!-- Stories will be dynamically added here -->
+            </div>
+        </div>
+    </section>
+
+    <script src="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.js"></script>
+    
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const stories = [
+                {
+                    title: "Ravi's Journey to Engineering",
+                    description: "Ravi, from a rural village, found a mentor through our platform who guided him in preparing for engineering entrance exams. With virtual tutoring and resources, he secured admission to a top engineering college.",
+                    imageUrl: "student1.jpg"
+                },
+                {
+                    title: "Priya's Scholarship Success",
+                    description: "Priya, a first-generation college student, used our scholarship database and application assistance to secure full funding for her education. She's now pursuing her dream of becoming a doctor.",
+                    imageUrl: "student2.jpg"
+                },
+                {
+                    title: "Ahmed's Coding Breakthrough",
+                    description: "Ahmed, with limited access to technology, connected with a coding mentor through our platform. He's now proficient in multiple programming languages and developing mobile apps.",
+                    imageUrl: "student3.jpg"
+                },
+                {
+                    title: "Fatima's Language Learning Success",
+                    description: "Fatima, an immigrant student, found language tutors on our platform who helped her improve her English skills. She's now excelling in her classes and actively participating in school activities.",
+                    imageUrl: "student4.jpg"
+                },
+                {
+                    title: "Miguel's College Application Triumph",
+                    description: "Miguel, unsure about the college application process, received guidance from mentors on our platform. He's now been accepted to multiple universities with scholarships.",
+                    imageUrl: "student5.jpg"
+                },
+                {
+                    title: "Aisha's STEM Journey",
+                    description: "Aisha, passionate about science but lacking resources, found STEM mentors and virtual lab simulations through our platform. She's now leading her school's robotics team.",
+                    imageUrl: "student6.jpg"
+                },
+                {
+                    title: "Carlos' Writing Improvement",
+                    description: "Carlos struggled with essay writing until he connected with a writing tutor on our platform. His improved skills helped him win a national essay contest and boost his grades.",
+                    imageUrl: "student7.jpg"
+                },
+                {
+                    title: "Zara's Public Speaking Confidence",
+                    description: "Zara, once shy about public speaking, found a supportive community and speech coaching through our forums. She recently delivered a TEDx talk at her school.",
+                    imageUrl: "student8.jpg"
+                },
+                {
+                    title: "Li Wei's Math Mastery",
+                    description: "Li Wei, struggling with advanced math, found expert tutors on our platform. He's now solving complex problems with ease and mentoring younger students in his community.",
+                    imageUrl: "student9.jpg"
+                },
+                {
+                    title: "Amina's Research Opportunity",
+                    description: "Amina, interested in environmental science, connected with a researcher through our mentorship program. She's now assisting in a climate change study and presenting at conferences.",
+                    imageUrl: "student10.jpg"
+                },
+                {
+                    title: "Jason's Entrepreneurial Start",
+                    description: "Jason, with a business idea but no guidance, found mentors in our entrepreneur network. He's now running a successful small business while completing high school.",
+                    imageUrl: "student1.jpg"
+                },
+                {
+                    title: "Sofia's Artistic Growth",
+                    description: "Sofia, passionate about art but lacking formal training, connected with artist mentors on our platform. Her portfolio has now earned her a scholarship to a prestigious art school.",
+                    imageUrl: "student2.jpg"
+                },
+                {
+                    title: "Raj's Debate Team Success",
+                    description: "Raj, once struggling with confidence, joined our platform's debate forums and found a coach. He's now captain of his school's debate team and winning regional competitions.",
+                    imageUrl: "student3.jpg"
+                },
+                {
+                    title: "Emma's Music Education Journey",
+                    description: "Emma, unable to afford music lessons, found volunteer music teachers on our platform. She's now performing in concerts and teaching music to younger kids in her neighborhood.",
+                    imageUrl: "student4.jpg"
+                },
+                {
+                    title: "Yuki's Language Exchange Experience",
+                    description: "Yuki, learning English as a second language, participated in our platform's language exchange program. She's now fluent in English and helping others learn Japanese.",
+                    imageUrl: "student5.jpg"
+                }
+            ];
+
+            const scroller = document.getElementById('scroller');
+
+            stories.forEach(story => {
+                const storyCard = document.createElement('div');
+                storyCard.className = 'scroller-item';
+                storyCard.innerHTML = `
+                    <img src="${story.imageUrl}" alt="${story.title}" class="w-full h-48 object-cover mb-4 rounded-lg">
+                    <h4 class="text-xl font-bold mb-2">${story.title}</h4>
+                    <p class="text-secondary">${story.description}</p>
+                `;
+                scroller.appendChild(storyCard);
+            });
+        });
+    </script>
+</body>
+</html>
