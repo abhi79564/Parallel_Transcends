@@ -1,0 +1,51 @@
+<!-- templates/results.html -->
+{% extends "base.html" %}
+{% block content %}
+<div class="container mx-auto mt-8">
+    <h2 class="text-2xl font-bold mb-4">Your Matched Mentors</h2>
+    
+    <!-- Search bar -->
+    <div class="mb-4">
+        <input type="text" id="search" placeholder="Search mentors..." class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+    </div>
+    
+    <div id="mentor-container" class="grid grid-cols-1 md:grid-cols-3 gap-4">
+        {% for mentor in mentors %}
+        <div class="mentor-card bg-white rounded-xl shadow-md overflow-hidden">
+            <img class="h-48 w-full object-cover" src="{{ mentor.photo }}" alt="{{ mentor.name }}">
+            <div class="p-4">
+                <h3 class="font-bold text-xl mb-2">{{ mentor.name }}</h3>
+                <p class="text-gray-700 text-base mb-2">{{ mentor.domain }}</p>
+                <p class="text-gray-600 text-sm mb-4">{{ mentor.experience }} experience</p>
+                <a href="{{ url_for('mentor_profile', mentor_id=mentor.id) }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
+                    View Profile
+                </a>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Add JavaScript for search functionality -->
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const searchInput = document.getElementById('search');
+    const mentorCards = document.querySelectorAll('.mentor-card');
+
+    searchInput.addEventListener('input', function () {
+        const query = searchInput.value.toLowerCase();
+        
+        mentorCards.forEach(card => {
+            const name = card.querySelector('h3').textContent.toLowerCase();
+            const domain = card.querySelector('p.text-gray-700').textContent.toLowerCase();
+            
+            if (name.includes(query) || domain.includes(query)) {
+                card.style.display = '';
+            } else {
+                card.style.display = 'none';
+            }
+        });
+    });
+});
+</script>
+{% endblock %}

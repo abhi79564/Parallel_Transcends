@@ -1,0 +1,82 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mx-auto">
+    <div class="md:flex items-center p-8">
+        <!-- Profile Picture -->
+        <div class="md:flex-shrink-0">
+            <img class="h-48 w-48 rounded-full object-cover border-4 border-blue-500 shadow-lg" src="{{ mentor.photo }}" alt="{{ mentor.name }}">
+        </div>
+        <div class="md:ml-8">
+            <h2 class="text-3xl font-bold mb-2">{{ mentor.name }}</h2>
+            <p class="text-gray-600 mb-2">{{ mentor.domain }} | {{ mentor.experience }} experience</p>
+            <p class="text-gray-700 mb-2"><strong>Skills:</strong> {{ mentor.skills }}</p>
+            <p class="text-gray-700 mb-2"><strong>Company:</strong> {{ mentor.company }}</p>
+            <p class="text-gray-700 mb-2"><strong>Price:</strong> $150 per session</p>
+            <p class="text-gray-700 mb-4">{{ mentor.bio }}</p>
+
+            <!-- Contact Buttons -->
+            <div class="mt-4 flex space-x-3">
+                <a href="mailto:{{ mentor.email }}" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded flex items-center">
+                    Email
+                </a>
+                <a href="tel:{{ mentor.phone }}" class="bg-green-500 hover:bg-green-700 text-white font-bold py-2 px-4 rounded flex items-center">
+                    Call
+                </a>
+
+                <!-- LinkedIn Button -->
+                <a href="https://www.linkedin.com/in/dummy-profile" target="_blank" class="bg-blue-700 hover:bg-blue-900 text-white font-bold py-2 px-4 rounded flex items-center">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png" class="h-5 w-5 mr-2" alt="LinkedIn">
+                    LinkedIn
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Feedback Section -->
+<div class="mt-8 bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl mx-auto p-8">
+    <h3 class="text-xl font-bold mb-4">Mentee Feedback</h3>
+    <div class="feedback-container overflow-hidden relative">
+        <div class="feedback-slider flex space-x-4 py-4">
+            <!-- Example of hardcoded feedback cards -->
+            <div class="flex-shrink-0 w-64 bg-gray-100 p-4 rounded-lg shadow-md">
+                <p class="text-gray-700"><strong>Mitesh:</strong> Great mentor.</p>
+                <p class="text-gray-500 text-sm mt-2">- Rating: ⭐⭐⭐⭐⭐</p>
+            </div>
+            <div class="flex-shrink-0 w-64 bg-gray-100 p-4 rounded-lg shadow-md">
+                <p class="text-gray-700"><strong>Hitesh:</strong> Helped me a lot.</p>
+                <p class="text-gray-500 text-sm mt-2">- Rating: ⭐⭐⭐⭐</p>
+            </div>
+            <div class="flex-shrink-0 w-64 bg-gray-100 p-4 rounded-lg shadow-md">
+                <p class="text-gray-700"><strong>Dipesh:</strong> Excellent guidance.</p>
+                <p class="text-gray-500 text-sm mt-2">- Rating: ⭐⭐⭐⭐⭐</p>
+            </div>
+            <!-- Add more feedback cards as needed -->
+        </div>
+    </div>
+</div>
+
+<style>
+/* Profile Picture Styling */
+img.rounded-full {
+    border: 4px solid #1D4ED8; /* Tailwind Blue-600 */
+    box-shadow: 0 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+/* Feedback Scroller */
+@keyframes scrollFeedback {
+    0% { transform: translateX(0); }
+    100% { transform: translateX(-100%); }
+}
+
+.feedback-slider {
+    display: flex;
+    white-space: nowrap;
+    animation: scrollFeedback 15s linear infinite;
+}
+
+.feedback-container {
+    overflow: hidden;
+}
+</style>
+{% endblock %}

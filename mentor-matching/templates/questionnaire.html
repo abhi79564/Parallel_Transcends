@@ -1,0 +1,59 @@
+<!-- templates/questionnaire.html -->
+{% extends "base.html" %}
+{% block content %}
+<div class="max-w-md mx-auto bg-white rounded-xl shadow-md overflow-hidden md:max-w-2xl p-8">
+    <h2 class="text-2xl font-bold mb-4">Find Your Mentor</h2>
+    <form action="/match" method="post">
+        <div class="mb-4">
+            <label for="domain" class="block text-gray-700 text-sm font-bold mb-2">Preferred Domain:</label>
+            <select id="domain" name="domain" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+                {% for domain in domains %}
+                <option value="{{ domain }}">{{ domain }}</option>
+                {% endfor %}
+            </select>
+        </div>
+        
+        <div class="mb-4">
+            <label for="skills" class="block text-gray-700 text-sm font-bold mb-2">Your Skills:</label>
+            <select id="skills" name="skills" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" multiple required>
+                {% for skill in skills %}
+                <option value="{{ skill }}">{{ skill }}</option>
+                {% endfor %}
+            </select>
+            <small class="text-gray-600">Hold down the Ctrl (Windows) or Command (Mac) button to select multiple options.</small>
+        </div>
+        
+        <div class="mb-4">
+            <label for="experience" class="block text-gray-700 text-sm font-bold mb-2">Years of Experience:</label>
+            <select id="experience" name="experience" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline" required>
+                {% for experience in experiences %}
+                <option value="{{ experience }}">{{ experience }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="mb-4">
+            <label for="company" class="block text-gray-700 text-sm font-bold mb-2">Preferred Company:</label>
+            <select id="company" name="company" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+                {% for company in companies %}
+                <option value="{{ company }}">{{ company }}</option>
+                {% endfor %}
+            </select>
+        </div>
+
+        <div class="mb-4">
+            <label for="mentorship_style" class="block text-gray-700 text-sm font-bold mb-2">Preferred Mentorship Style:</label>
+            <input type="text" id="mentorship_style" name="mentorship_style" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline">
+        </div>
+
+        <div class="mb-4">
+            <label for="learning_goals" class="block text-gray-700 text-sm font-bold mb-2">Learning Goals:</label>
+            <textarea id="learning_goals" name="learning_goals" class="shadow appearance-none border rounded w-full py-2 px-3 text-gray-700 leading-tight focus:outline-none focus:shadow-outline"></textarea>
+        </div>
+        
+        <button type="submit" class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded focus:outline-none focus:shadow-outline">
+            Find Mentors
+        </button>
+    </form>
+</div>
+{% endblock %}
